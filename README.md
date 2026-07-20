@@ -7,20 +7,18 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/wunaiqiezixin/leetcode-algorithm)
 ![GitHub stars](https://img.shields.io/github/stars/wunaiqiezixin/leetcode-algorithm?style=social)
 
-**非科班大一学生的算法刷题记录 · 170+ 道题目的记录 · 持续更新中**
+**非科班大一学生的算法刷题记录 · leetcode · acm-mode**
 
 </div>
 
 ---
 
-> 从 C 语言入门到力扣刷题，从郭炜老师的算法基础课到 ACM 模式训练——每一行代码都是一个字母一个字母敲出来的。
->
-> 计算机对我来说就是当下最好的选择。
+> 包含了我刚接触 ***数据结构与算法*** 以来的算法刷题记录
+> 相信 ***重复*** 的力量
 
 ---
 
-**刷题路线参考**：[代码随想录](https://programmercarl.com/) · [郭炜老师算法基础课](https://www.icourse163.org/learn/PKU-1001894005?tid=1474167486#/learn/announce)
-
+**刷题路线参考**：[代码随想录](https://programmercarl.com/)
 ```
 leetcode-algorithm/
 ├── algorithm/              # 基础算法
@@ -32,9 +30,8 @@ leetcode-algorithm/
 
 ---
 
-## 题解索引
+##
 
-> 点击展开查看各分类题解。
 
 <details>
 <summary><b>哈希表</b></summary>
@@ -56,14 +53,14 @@ leetcode-algorithm/
 - [0026 删除有序数组中的重复项](./problems/0026.删除有序数组中的重复项.md)
 - [0027 移除元素](./problems/0027.移除元素.md)
 - [0028 找出字符串中第一个匹配项的下标](./problems/0028.%20找出字符串中第一个匹配项的下标.md)
-- [0034 在排序数组中查找元素的第一个和最后一个位置](./problems/0034.%20在排序数组中查找元素的第一个和最后一个位置.md) ️ *同时归入二分查找*
+- [0034 在排序数组中查找元素的第一个和最后一个位置](./problems/0034.%20在排序数组中查找元素的第一个和最后一个位置.md) ️
 - [0054 螺旋矩阵](./problems/0054.螺旋矩阵.md)
 - [0059 螺旋矩阵 II](./problems/0059.螺旋矩阵II.md)
 - [0080 删除有序数组中的重复项 II](./problems/0080.%20删除有序数组中的重复项%20II.md)
 - [0215 数组中的第K个最大元素](./problems/0215.%20数组中的第K个最大元素.md)
 - [0283 移动零](./problems/0283.移动零.md)
 - [0844 比较含退格的字符串](./problems/0844.%20比较含退格的字符串.md)
-- [1047 删除字符串中的所有相邻重复项](./problems/1047.%20删除字符串中的所有相邻重复项.md) ️ *同时归入栈与队列*
+- [1047 删除字符串中的所有相邻重复项](./problems/1047.%20删除字符串中的所有相邻重复项.md) ️
 
 </details>
 
@@ -249,7 +246,7 @@ leetcode-algorithm/
 </details>
 
 <details>
-<summary><b>algorithm 目录</b></summary>
+<summary><b>algorithm</b></summary>
 
 > 来源：[郭炜老师《程序设计（二）算法基础课》](https://www.icourse163.org/learn/PKU-1001894005?tid=1474167486#/learn/announce)
 
@@ -289,7 +286,7 @@ leetcode-algorithm/
 </details>
 
 <details>
-<summary><b>acm-mode 目录</b></summary>
+<summary><b>acm-mode</b></summary>
 
 - [381 领养宠物](./acm-mode/381.领养宠物.md) — 多指针 + 排序
 - [382 独立匹配的边集](./acm-mode/382.独立匹配的边集.md) — 模拟
