@@ -3,8 +3,8 @@
 
 ---
 ## 思路
-遍历矩阵`grid`，当遇到1时(陆地),搜索整个岛屿并标记为已访问   
-用一个全局变量`cnt`记录岛屿面积  
+遍历矩阵`grid`，当遇到1时(陆地),搜索整个岛屿并标记为已访问
+用一个全局变量`cnt`记录岛屿面积
 
 ### ***C++***
 >dfs
@@ -12,11 +12,11 @@
 #include<iostream>
 #include<vector>
 using namespace std;
- 
+
 int dir[4][2] = {0, 1, 1, 0, 0, -1, -1, 0};
 int cnt;
 void dfs(vector<vector<int> > & grid, vector<vector<bool> > & visited, int x, int y);
- 
+
 int main(void)
 {
     int result = 0;
@@ -28,7 +28,7 @@ int main(void)
     for (i = 0; i < N; ++i)
         for (j = 0; j < M; ++j)
             cin >> grid[i][j];
-     
+
     for (i = 0; i < N; ++i)
     {
         for (j = 0; j < M; ++j)
@@ -42,7 +42,7 @@ int main(void)
     cout << result << endl;
     return 0;
 }
- 
+
 void dfs(vector<vector<int> > & grid, vector<vector<bool> > & visited, int x, int y)
 {
     if (grid[x][y])
@@ -83,11 +83,11 @@ void dfs(vector<vector<int> > & grid, vector<vector<bool> > & visited, int x, in
 #include<queue>
 #include<vector>
 using namespace std;
- 
+
 int dir[4][2] = {0, 1, 0, -1, 1, 0, -1, 0};
 int cnt;
 void bfs(vector<vector<int> > & grid, vector<vector<bool> > & visited, int x, int y);
- 
+
 int main(void)
 {
     int result = 0;
@@ -99,7 +99,7 @@ int main(void)
     for (i = 0; i < N; ++i)
         for (j = 0; j < M; ++j)
             cin >> grid[i][j];
-     
+
     for (i = 0; i < N; ++i)
     {
         for (j = 0; j < M; ++j)
@@ -113,7 +113,7 @@ int main(void)
     cout << result << endl;
     return 0;
 }
- 
+
 void bfs(vector<vector<int> > & grid, vector<vector<bool> > & visited, int x, int y)
 {
     if (grid[x][y] && !visited[x][y])
@@ -149,4 +149,83 @@ void bfs(vector<vector<int> > & grid, vector<vector<bool> > & visited, int x, in
     Time:49 ms
     Memory:2180 kb
 ****************************************************************/
+```
+
+> 2026-07-21
+
+```CPP
+#include <iostream>
+#include <vector>
+#include <queue>
+using namespace std;
+
+int dir[4][2]{-1,0,0,1,0,-1,1,0};
+int n, m;
+vector<vector<char>> adj;
+
+// dfs:
+void dfs(int x, int y, int& area) {
+    if (adj[x][y] != '1') return;
+    ++area;
+    adj[x][y] = '2';
+
+    for (int k = 0; k < 4; ++k) {
+        int nx = x + dir[k][0];
+        int ny = y + dir[k][1];
+        if (nx < 0 || ny < 0 || nx >= n || ny >= m) continue;
+        if (adj[nx][ny] == '1') dfs(nx, ny, area);
+    }
+}
+
+// bfs:
+void bfs(int x, int y, int& area) {
+    if (adj[x][y] != '1') return;
+    queue<pair<int, int>> que;
+    que.push({x, y});
+
+    while (!que.empty()) {
+        auto [curx, cury] = que.front();
+        que.pop();
+        if (adj[curx][cury] != '1') continue;
+        ++area;
+        adj[curx][cury] = '2';
+        for (int k = 0; k < 4; ++k) {
+            int nx = curx + dir[k][0];
+            int ny = cury + dir[k][1];
+            if (nx < 0 || ny < 0 || nx >= n || ny >= m) continue;
+            if (adj[nx][ny] == '1') que.push({nx, ny});
+        }
+    }
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    cin >> n >> m;
+    adj.resize(n, vector<char>(m));
+    for (int i = 0; i < n; ++i)
+        for (int j = 0; j < m; ++j)
+            cin >> adj[i][j];
+
+    int max_area = 0;
+
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            if (adj[i][j] == '1') {
+                int area = 0;
+                bfs(i, j, area);
+//              dfs(i, j, area);
+                if (area > max_area) max_area = area;
+            }
+        }
+    }
+
+    cout << max_area << '\n';
+
+    return 0;
+}
+
+
+
 ```

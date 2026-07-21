@@ -79,6 +79,10 @@ leetcode-algorithm/
 
 <details>
 <summary><b>图论</b></summary>
+
+- [DFS: 找出所有可达路径](./problems/acm.98.可达路径.md)
+- [DFS/BFS: 计数孤岛](./problems/acm.99.计数孤岛.md)
+- [DFS/BFS: 求最大岛屿面积](./problems/acm.100.最大岛屿的面积.md)
 </details>
 
 
