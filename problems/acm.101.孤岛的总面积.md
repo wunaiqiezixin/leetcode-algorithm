@@ -3,7 +3,7 @@
 
 ---
 ## 思路
-对矩阵`grid`边缘的陆地(1)进行搜索，将与其连着的整座岛屿置为0    
+对矩阵`grid`边缘的陆地(1)进行搜索，将与其连着的整座岛屿置为0
 
 ### ***C++***
 >dfs
@@ -11,9 +11,9 @@
 #include<iostream>
 #include<vector>
 using namespace std;
- 
+
 int dir[4][2] = {0, 1, 0, -1, 1, 0, -1,0};
- 
+
 void dfs(vector<vector<int> > & grid,int x, int y)
 {
         if (grid[x][y])
@@ -30,9 +30,9 @@ void dfs(vector<vector<int> > & grid,int x, int y)
                 dfs(grid, dx, dy);
             }
         }
-     
+
 }
- 
+
 int main(void)
 {
     int N, M;
@@ -81,10 +81,10 @@ int main(void)
 #include<vector>
 #include<queue>
 using namespace std;
- 
+
 int dir[4][2] = {0, 1, 0, -1, 1, 0, -1,0};
- 
- 
+
+
 void bfs(vector<vector<int> > & grid, int x, int y)
 {
     if (grid[x][y])
@@ -111,7 +111,7 @@ void bfs(vector<vector<int> > & grid, int x, int y)
         }
     }
 }
- 
+
 int main(void)
 {
     int N, M;
@@ -151,4 +151,86 @@ int main(void)
     Time:45 ms
     Memory:2180 kb
 ****************************************************************/
+```
+
+> 2026-07-22
+
+```CPP
+#include <iostream>
+#include <vector>
+#include <queue>
+using namespace std;
+
+int dir[4][2]{-1,0,0,1,0,-1,1,0};
+vector<vector<char>> adj;
+int n, m;
+
+void dfs(int x, int y, int& area) {
+    if (adj[x][y] != '1') return;
+    ++area;
+    adj[x][y] = '2';
+    for (int k = 0; k < 4; ++k) {
+        int nx = x + dir[k][0];
+        int ny = y + dir[k][1];
+        if (nx < 0 || ny < 0 || nx >= n || ny >= m) continue;
+        if (adj[nx][ny] == '1') dfs(nx, ny, area);
+    }
+}
+
+void bfs(int x, int y, int& area) {
+    if (adj[x][y] != '1') return;
+    queue<pair<int, int>> que;
+    que.push({x, y});
+    while (!que.empty()) {
+        auto [curx, cury] = que.front();
+        que.pop();
+        if (adj[curx][cury] != '1') continue;
+        ++area;
+        adj[curx][cury] = '2';
+        for (int k = 0; k < 4; ++k) {
+            int nx = curx + dir[k][0];
+            int ny = cury + dir[k][1];
+            if (nx < 0 || ny < 0 || nx >= n || ny >= m) continue;
+            if (adj[nx][ny] == '1') que.push({nx, ny});
+        }
+    }
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    cin >> n >> m;
+    adj.resize(n, vector<char>(m));
+
+    for (int i = 0; i < n; ++i)
+        for (int j = 0; j < m; ++j)
+            cin >> adj[i][j];
+
+    int area = 0;
+    for (int i = 0; i < n; ++i) {
+        dfs(i, 0, area);
+        bfs(i, m - 1, area);
+    }
+    for (int j = 0; j < m; ++j) {
+        dfs(0, j, area);
+        bfs(n - 1, j, area);
+    }
+
+    int total_area = 0;
+
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            if (adj[i][j] == '1') {
+                area = 0;
+                dfs(i, j, area);
+                total_area += area;
+            }
+        }
+    }
+
+    cout << total_area << '\n';
+
+    return 0;
+}
 ```
