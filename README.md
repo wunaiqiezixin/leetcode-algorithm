@@ -85,6 +85,8 @@ leetcode-algorithm/
 - [DFS/BFS: 计数孤岛](./problems/acm.99.计数孤岛.md)
 - [DFS/BFS: 求最大岛屿面积](./problems/acm.100.最大岛屿的面积.md)
 - [DFS/BFS: 求孤岛的总面积](./problems/acm.101.孤岛的总面积.md)
+- [DFS/BFS: 沉没孤岛](./problems/acm.102.沉没孤岛.md)
+- [DFS/BFS: 高山流水](./problems/acm.103.高山流水.md)
 </details>
 
 

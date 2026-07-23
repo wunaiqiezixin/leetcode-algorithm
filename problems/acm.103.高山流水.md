@@ -7,9 +7,9 @@
 #include<iostream>
 #include<vector>
 using namespace std;
- 
+
 int dir[4][2] = {1, 0, -1, 0, 0, 1, 0, -1};
- 
+
 /* 从边界点(x, y)逆流而上，标记所有路径 */
 void dfs(vector<vector<int> > & grid, vector<vector<bool> > & visited, int x, int y)
 {
@@ -28,7 +28,7 @@ void dfs(vector<vector<int> > & grid, vector<vector<bool> > & visited, int x, in
         }
     }
 }
- 
+
 int main(void)
 {
     int N, M;
@@ -40,7 +40,7 @@ int main(void)
     for (i = 0; i < N; ++i)
         for (j = 0; j < M; ++j)
             cin >> grid[i][j];
- 
+
     for (i = 0; i < N; ++i)
     {
         dfs(grid, firstBoundary, i, 0);
@@ -51,7 +51,7 @@ int main(void)
         dfs(grid, firstBoundary, 0, j);
         dfs(grid, secondBoundary, N - 1, j);
     }
- 
+
     for (i = 0; i < N; ++i)
         for (j = 0; j < M; ++j)
             if (firstBoundary[i][j] && secondBoundary[i][j])
@@ -66,4 +66,53 @@ int main(void)
     Time:58 ms
     Memory:2312 kb
 ****************************************************************/
+```
+
+> 2026-07-23
+
+```CPP
+#include <iostream>
+#include <vector>
+using namespace std;
+int dir[4][2]{-1,0,0,1,0,-1,1,0};
+
+int n, m;
+vector<vector<int>> adj;
+
+void dfs(int x, int y, vector<vector<bool>>& visited) {
+    if (visited[x][y]) return;
+    visited[x][y] = true;
+    for (int k = 0; k < 4; ++k) {
+        int nx = x + dir[k][0];
+        int ny = y + dir[k][1];
+        if (nx < 0 || ny < 0 || nx >= n || ny >= m) continue;
+        if (!visited[nx][ny] && adj[nx][ny] >= adj[x][y])
+            dfs(nx, ny, visited);
+    }
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cin >> n >> m;
+    adj.resize(n, vector<int>(m));
+    for (int i = 0; i < n; ++i)
+        for (int j = 0; j < m; ++j)
+            cin >> adj[i][j];
+    vector<vector<bool>> is_first(n, vector<bool>(m, false));
+    vector<vector<bool>> is_second(n, vector<bool>(m, false));
+    for (int i = 0; i < n; ++i) {
+        dfs(i, 0, is_first);
+        dfs(i, m - 1, is_second);
+    }
+    for (int j = 0; j < m; ++j) {
+        dfs(0, j, is_first);
+        dfs(n - 1, j, is_second);
+    }
+    for (int i = 0; i < n; ++i)
+        for (int j = 0; j < m; ++j)
+            if (is_first[i][j] && is_second[i][j])
+                cout << i << " " << j << '\n';
+    return 0;
+}
 ```
