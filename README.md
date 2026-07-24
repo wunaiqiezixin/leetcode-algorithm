@@ -25,6 +25,7 @@ leetcode-algorithm/
 ├── algorithm/              # 基础算法
 ├── problems/               # LeetCode
 ├── acm-mode/               # ACM 模式 (练习输入输出)
+├── lanqiao/                # 蓝桥杯真题
 ├── LICENSE
 └── README.md
 ```
@@ -87,6 +88,7 @@ leetcode-algorithm/
 - [DFS/BFS: 求孤岛的总面积](./problems/acm.101.孤岛的总面积.md)
 - [DFS/BFS: 沉没孤岛](./problems/acm.102.沉没孤岛.md)
 - [DFS/BFS: 高山流水](./problems/acm.103.高山流水.md)
+- [DFS/BFS: 建造最大岛屿](./problems/acm.104.建造最大岛屿.md)
 </details>
 
 
