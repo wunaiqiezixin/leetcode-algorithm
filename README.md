@@ -90,6 +90,8 @@ leetcode-algorithm/
 - [DFS/BFS: 高山流水](./problems/acm.103.高山流水.md)
 - [DFS/BFS: 建造最大岛屿](./problems/acm.104.建造最大岛屿.md)
 - [BFS: 字符串迁移](./problems/acm.110.字符串迁移.md)
+- [并查集：寻找存在的路线](./problems/acm.107.寻找存在的路线.md)
+- [并查集：多余的边](./problems/acm.108.多余的边.md)
 </details>
 
 
