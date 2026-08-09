@@ -22,7 +22,6 @@
 **刷题路线参考**：[代码随想录](https://programmercarl.com/)
 ```
 leetcode-algorithm/
-├── algorithm/              # 基础算法
 ├── problems/               # LeetCode
 ├── acm-mode/               # ACM 模式 (练习输入输出)
 ├── lanqiao/                # 蓝桥杯真题
@@ -96,7 +95,8 @@ leetcode-algorithm/
 - [Union-Find：多余的边II.md](./problems/acm.109.多余的边II.md)
 - [MST: 寻宝](./problems/acm.53.寻宝.md)
 - [MST: problems/1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](./problems/1489.Find-Critical-and-Pseudo-Critical-Edges-in-Minimum-Spanning-Tree.md)
-
+- [Topological-Sort: Course Schedule](./problems/0207.Course-Schedule.md)
+- [Topological-Sort: software-build](./acm-mode/kamacoder/software-build.md)
 </details>
 
 
