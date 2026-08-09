@@ -81,22 +81,22 @@ leetcode-algorithm/
 <details>
 <summary><b>图论</b></summary>
 
-- [DFS: 找出所有可达路径](./problems/acm.98.可达路径.md)
+- [DFS: 找出所有可达路径](./acm-mode/kamacoder/0098.可达路径.md)
 - [DFS/backtracking: 单词搜索.md](./problems/0079.单词搜索.md)
-- [DFS/BFS: 计数孤岛](./problems/acm.99.计数孤岛.md)
-- [DFS/BFS: 求最大岛屿面积](./problems/acm.100.最大岛屿的面积.md)
-- [DFS/BFS: 求孤岛的总面积](./problems/acm.101.孤岛的总面积.md)
-- [DFS/BFS: 沉没孤岛](./problems/acm.102.沉没孤岛.md)
-- [DFS/BFS: 高山流水](./problems/acm.103.高山流水.md)
-- [DFS/BFS: 建造最大岛屿](./problems/acm.104.建造最大岛屿.md)
-- [BFS: 字符串迁移](./problems/acm.110.字符串迁移.md)
-- [Union-Find：寻找存在的路线](./problems/acm.107.寻找存在的路线.md)
-- [Union-Find：多余的边](./problems/acm.108.多余的边.md)
-- [Union-Find：多余的边II.md](./problems/acm.109.多余的边II.md)
-- [MST: 寻宝](./problems/acm.53.寻宝.md)
-- [MST: problems/1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](Find-Critical-and-Pseudo-Critical-Edges-in-Minimum-Spanning-Tree.md)
+- [DFS/BFS: 计数孤岛](./acm-mode/kamacoder/0099.计数孤岛.md)
+- [DFS/BFS: 求最大岛屿面积](./acm-mode/kamacoder/0100.最大岛屿的面积.md)
+- [DFS/BFS: 求孤岛的总面积](./acm-mode/kamacoder/0101.孤岛的总面积.md)
+- [DFS/BFS: 沉没孤岛](./acm-mode/kamacoder/0102.沉没孤岛.md)
+- [DFS/BFS: 高山流水](./acm-mode/kamacoder/0103.高山流水.md)
+- [DFS/BFS: 建造最大岛屿](./acm-mode/kamacoder/0104.建造最大岛屿.md)
+- [BFS: 字符串迁移](./acm-mode/kamacoder/0110.字符串迁移.md)
+- [Union-Find：寻找存在的路线](./acm-mode/kamacoder/0107.寻找存在的路线.md)
+- [Union-Find：多余的边](./acm-mode/kamacoder/0108.多余的边.md)
+- [Union-Find：多余的边II.md](./acm-mode/kamacoder/0109.多余的边II.md)
+- [MST: 寻宝](./acm-mode/kamacoder/0053.寻宝.md)
+- [MST: Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](./problems/1489.Find-Critical-and-Pseudo-Critical-Edges-in-Minimum-Spanning-Tree.md)
 - [Topological-Sort: Course Schedule](./problems/0207.Course-Schedule.md)
-- [Topological-Sort: software-build](./acm-mode/kamacoder/software-build.md)
+- [Topological-Sort: software-build](./acm-mode/kamacoder/0117.软件构建.md)
 </details>
 
 
