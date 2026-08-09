@@ -94,7 +94,7 @@ leetcode-algorithm/
 - [Union-Find：多余的边](./problems/acm.108.多余的边.md)
 - [Union-Find：多余的边II.md](./problems/acm.109.多余的边II.md)
 - [MST: 寻宝](./problems/acm.53.寻宝.md)
-- [MST: problems/1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](./problems/1489.Find-Critical-and-Pseudo-Critical-Edges-in-Minimum-Spanning-Tree.md)
+- [MST: problems/1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](Find-Critical-and-Pseudo-Critical-Edges-in-Minimum-Spanning-Tree.md)
 - [Topological-Sort: Course Schedule](./problems/0207.Course-Schedule.md)
 - [Topological-Sort: software-build](./acm-mode/kamacoder/software-build.md)
 </details>
