@@ -82,7 +82,7 @@ leetcode-algorithm/
 <summary><b>图论</b></summary>
 
 - [DFS: 找出所有可达路径](./acm-mode/kamacoder/0098.可达路径.md)
-- [DFS/backtracking: 单词搜索.md](./problems/0079.单词搜索.md)
+- [DFS/backtracking: 单词搜索](./problems/0079.单词搜索.md)
 - [DFS/BFS: 计数孤岛](./acm-mode/kamacoder/0099.计数孤岛.md)
 - [DFS/BFS: 求最大岛屿面积](./acm-mode/kamacoder/0100.最大岛屿的面积.md)
 - [DFS/BFS: 求孤岛的总面积](./acm-mode/kamacoder/0101.孤岛的总面积.md)
@@ -91,12 +91,14 @@ leetcode-algorithm/
 - [DFS/BFS: 建造最大岛屿](./acm-mode/kamacoder/0104.建造最大岛屿.md)
 - [BFS: 字符串迁移](./acm-mode/kamacoder/0110.字符串迁移.md)
 - [Union-Find：寻找存在的路线](./acm-mode/kamacoder/0107.寻找存在的路线.md)
-- [Union-Find：多余的边](./acm-mode/kamacoder/0108.多余的边.md)
-- [Union-Find：多余的边II.md](./acm-mode/kamacoder/0109.多余的边II.md)
+- [Union-Find：Redundant Connection](./acm-mode/kamacoder/0108.多余的边.md)
+- [Union-Find：Redundant Connection II](./acm-mode/kamacoder/0109.多余的边II.md)
 - [MST: 寻宝](./acm-mode/kamacoder/0053.寻宝.md)
 - [MST: Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](./problems/1489.Find-Critical-and-Pseudo-Critical-Edges-in-Minimum-Spanning-Tree.md)
 - [Topological-Sort: Course Schedule](./problems/0207.Course-Schedule.md)
-- [Topological-Sort: software-build](./acm-mode/kamacoder/0117.软件构建.md)
+- [Topological-Sort: Software Build](./acm-mode/kamacoder/0117.软件构建.md)
+- [Shortest-Path/BFS/full-permutation-enumeration: Gold Gathering](./acm-mode/kamacoder/0398.金矿采集.md)
+- [Shortest-Path: Participating in the Science Conference](./acm-mode/kamacoder/0047.参加科学大会.md)
 </details>
 
 
