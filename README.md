@@ -98,7 +98,8 @@ leetcode-algorithm/
 - [Topological-Sort: Course Schedule](./problems/0207.Course-Schedule.md)
 - [Topological-Sort: Software Build](./acm-mode/kamacoder/0117.软件构建.md)
 - [Shortest-Path/BFS/full-permutation-enumeration: Gold Gathering](./acm-mode/kamacoder/0398.金矿采集.md)
-- [Shortest-Path: Participating in the Science Conference](./acm-mode/kamacoder/0047.参加科学大会.md)
+- [Shortest-Path/Dijkstra: Participating in the Science Conference](./acm-mode/kamacoder/0047.参加科学大会.md)
+- [Shortest-Path/Bellman-Ford: intercity cargo transport I](./acm-mode/kamacoder/0094.城市间货物运输%20I.md)
 </details>
 
 
