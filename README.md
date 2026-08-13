@@ -33,53 +33,78 @@ leetcode-algorithm/
 
 
 
-
 <details>
-<summary><b>哈希表</b></summary>
+<summary><b>Array</b></summary>
 </details>
 
 <details>
-<summary><b>数组与双指针</b></summary>
+<summary><b>String</b></summary>
 </details>
 
 <details>
-<summary><b>二分查找</b></summary>
+<summary><b>Linked List</b></summary>
+</details>
+
+
+<details>
+<summary><b>Stack</b></summary>
 </details>
 
 <details>
-<summary><b>滑动窗口</b></summary>
+<summary><b>Monotonic Stack</b></summary>
 </details>
 
 <details>
-<summary><b>栈与队列</b></summary>
+<summary><b>Queue</b></summary>
 </details>
 
 <details>
-<summary><b>链表</b></summary>
+<summary><b>Monotonic Queue</b></summary>
 </details>
 
 <details>
-<summary><b>二叉树</b></summary>
+<summary><b>Hash Table</b></summary>
 </details>
 
 <details>
-<summary><b>回溯算法</b></summary>
+<summary><b>Heap</b></summary>
+
 </details>
 
 <details>
-<summary><b>贪心算法</b></summary>
+<summary><b>Binary Search</b></summary>
 </details>
 
 <details>
-<summary><b>动态规划</b></summary>
+<summary><b>Two Pointers</b></summary>
+</details>
+
+
+<details>
+<summary><b>Binary Tree</b></summary>
 </details>
 
 <details>
-<summary><b>单调栈</b></summary>
+<summary><b>Sliding Window</b></summary>
 </details>
 
 <details>
-<summary><b>图论</b></summary>
+<summary><b>Backtracking</b></summary>
+</details>
+
+<details>
+<summary><b>Greedy</b></summary>
+</details>
+
+<details>
+<summary><b>Dynamic Programing</b></summary>
+
+</details>
+
+
+
+<details>
+<summary><b>Graph</b></summary>
 
 - [DFS: 找出所有可达路径](./acm-mode/kamacoder/0098.可达路径.md)
 - [DFS/backtracking: 单词搜索](./problems/0079.单词搜索.md)
