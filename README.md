@@ -7,24 +7,24 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/wunaiqiezixin/leetcode-algorithm)
 ![GitHub stars](https://img.shields.io/github/stars/wunaiqiezixin/leetcode-algorithm?style=social)
 
-**非科班大一学生的算法刷题记录 · leetcode · acm-mode**
+**Algorithm problem-solving log of a first year non-CS major student · leetcode · acm-mode**
 
 </div>
 
 ---
 
-> 包含了我刚接触 ***数据结构与算法*** 以来的算法刷题记录
-
-> 相信 ***重复*** 的力量
+> A first-year non-CS student's coding journal. Covers LeetCode, ACM-style I/O practice, and past Lanqiao Cup problems.
+>
+> Build on repetition.
 
 ---
 
-**刷题路线参考**：[代码随想录](https://programmercarl.com/)
+**Problem-solving roadmap reference**：[Code Caprice](https://github.com/youngyangyang04/leetcode-master)
 ```
 leetcode-algorithm/
 ├── problems/               # LeetCode
-├── acm-mode/               # ACM 模式 (练习输入输出)
-├── lanqiao/                # 蓝桥杯真题
+├── acm-mode/               # ACM mode (input/output practice)
+├── lanqiao/                # Lanqiao Cup past problems
 ├── LICENSE
 └── README.md
 ```
@@ -106,16 +106,16 @@ leetcode-algorithm/
 <details>
 <summary><b>Graph</b></summary>
 
-- [DFS: 找出所有可达路径](./acm-mode/kamacoder/0098.可达路径.md)
-- [DFS/backtracking: 单词搜索](./problems/0079.单词搜索.md)
-- [DFS/BFS: 计数孤岛](./acm-mode/kamacoder/0099.计数孤岛.md)
-- [DFS/BFS: 求最大岛屿面积](./acm-mode/kamacoder/0100.最大岛屿的面积.md)
-- [DFS/BFS: 求孤岛的总面积](./acm-mode/kamacoder/0101.孤岛的总面积.md)
-- [DFS/BFS: 沉没孤岛](./acm-mode/kamacoder/0102.沉没孤岛.md)
-- [DFS/BFS: 高山流水](./acm-mode/kamacoder/0103.高山流水.md)
-- [DFS/BFS: 建造最大岛屿](./acm-mode/kamacoder/0104.建造最大岛屿.md)
-- [BFS: 字符串迁移](./acm-mode/kamacoder/0110.字符串迁移.md)
-- [Union-Find：寻找存在的路线](./acm-mode/kamacoder/0107.寻找存在的路线.md)
+- [DFS: Find All Reachable Paths](./acm-mode/kamacoder/0098.可达路径.md)
+- [DFS/backtracking: Word Search](./problems/0079.单词搜索.md)
+- [DFS/BFS: Number of Isolated Islands](./acm-mode/kamacoder/0099.计数孤岛.md)
+- [DFS/BFS: Max Area of Island](./acm-mode/kamacoder/0100.最大岛屿的面积.md)
+- [DFS/BFS: Total Area of Isolated Islands](./acm-mode/kamacoder/0101.孤岛的总面积.md)
+- [DFS/BFS: Sinking Isolated Islands](./acm-mode/kamacoder/0102.沉没孤岛.md)
+- [DFS/BFS: High Mountains and Flowing Water](./acm-mode/kamacoder/0103.高山流水.md)
+- [DFS/BFS: Build Largest Island](./acm-mode/kamacoder/0104.建造最大岛屿.md)
+- [BFS: String Migration](./acm-mode/kamacoder/0110.字符串迁移.md)
+- [Union-Find：Find Existing Path](./acm-mode/kamacoder/0107.寻找存在的路线.md)
 - [Union-Find：Redundant Connection](./acm-mode/kamacoder/0108.多余的边.md)
 - [Union-Find：Redundant Connection II](./acm-mode/kamacoder/0109.多余的边II.md)
 - [MST: 寻宝](./acm-mode/kamacoder/0053.寻宝.md)
@@ -138,7 +138,7 @@ leetcode-algorithm/
 
 <div align="center">
 
-[@wunaiqiezixin](https://github.com/wunaiqiezixin) · 2025-2026 · ⭐ 加油
+[@wunaiqiezixin](https://github.com/wunaiqiezixin) · 2025-2026 · ⭐ Come on
 
 _aim to computer science_
 
