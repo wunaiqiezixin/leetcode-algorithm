@@ -128,6 +128,7 @@ leetcode-algorithm/
 - [Shortest-Path/Bellman-Ford: intercity cargo transport II](./acm-mode/kamacoder/0096.城市间货物运输%20II.md)
 - [Shortest-Path/Bellman-Ford: intercity cargo transport III](./acm-mode/kamacoder/0096.城市间货物运输%20III.md)
 - [Shortest-Path/Floyd/Dijkstra: xiaoming visits park](./acm-mode/kamacoder/0097.小明逛公园.md)
+- [Shortest-Path/A*/BFS: knight attack](./acm-mode/kamacoder/0127.骑士的攻击.md)
 </details>
 
 
