@@ -118,7 +118,7 @@ leetcode-algorithm/
 - [Union-Find：Find Existing Path](./acm-mode/kamacoder/0107.寻找存在的路线.md)
 - [Union-Find：Redundant Connection](./acm-mode/kamacoder/0108.多余的边.md)
 - [Union-Find：Redundant Connection II](./acm-mode/kamacoder/0109.多余的边II.md)
-- [MST: 寻宝](./acm-mode/kamacoder/0053.寻宝.md)
+- [MST: Treasure Hunt](./acm-mode/kamacoder/0053.寻宝.md)
 - [MST: Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](./problems/1489.Find-Critical-and-Pseudo-Critical-Edges-in-Minimum-Spanning-Tree.md)
 - [Topological-Sort: Course Schedule](./problems/0207.Course-Schedule.md)
 - [Topological-Sort: Software Build](./acm-mode/kamacoder/0117.软件构建.md)
