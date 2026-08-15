@@ -35,6 +35,8 @@ leetcode-algorithm/
 
 <details>
 <summary><b>Array</b></summary>
+
+- [Prefix/Suffix/Greedy: LQ Aggregation](./lanqiao/province-17th-2026/003.LQ聚合.md)
 </details>
 
 <details>
