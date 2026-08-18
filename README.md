@@ -39,6 +39,7 @@ leetcode-algorithm/
 - [Difference-Array: Corporate Flight Bookings](./problems/1109.航班预订统计.md)
 - [Difference-Array/Sweep-Line: Car Pooling](./problems/1094.拼车.md)
 - [Prefix/Suffix/Greedy: LQ Aggregation](./lanqiao/province-17th-2026/003.LQ聚合.md)
+- [Difference-Array/Prefix/Suffix: Quiz Challenge](./acm-mode/kamacoder/0400.答题闯关.md)
 </details>
 
 <details>
