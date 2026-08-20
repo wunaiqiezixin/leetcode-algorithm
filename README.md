@@ -104,6 +104,8 @@ leetcode-algorithm/
 <details>
 <summary><b>Dynamic Programing</b></summary>
 
+- [Signal Strength Peak Interval](./acm-mode/kamacoder/380.信号强度变化中的最大差值区间.md)
+
 </details>
 
 
