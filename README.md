@@ -105,6 +105,7 @@ leetcode-algorithm/
 <summary><b>Dynamic Programing</b></summary>
 
 - [Signal Strength Peak Interval](./acm-mode/kamacoder/380.信号强度变化中的最大差值区间.md)
+- [Minimum Operations To Single Peak](./acm-mode/kamacoder/391.变成单峰序列最少次数.md)
 
 </details>
 
